@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="32dp"
+        android:text="Chandigarh University"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fstTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:text="BLOCKS"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/black"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                android:fillViewport="true">
+                <LinearLayout
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp">
+                        <ImageButton
+                            android:layout_width="300dp"
+                            android:src="@drawable/block1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:layout_height="170dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <TextView
+                            android:layout_width="142dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="50dp"
+                            android:text="Academic Block 1"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="17dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="This is academic block 1 of Chandigarh University"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="13dp" />
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp">
+                        <ImageButton
+                            android:layout_width="300dp"
+                            android:src="@drawable/block7"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:layout_height="170dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="50dp"
+                            android:text="Academic Block 12"
+                            android:textColor="@android:color/black"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="This is academic block 12 of Chandigarh University"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="13dp" />
+
+                    </androidx.cardview.widget.CardView>
+                   <!--
+                   <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Three" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Four" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Five" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Six" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Seven" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Eight" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Nine" />
+                        -->
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/fstTxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:text="OTHERS"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/black"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:layout_marginTop="-10dp">
+                <LinearLayout
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+<androidx.cardview.widget.CardView
+    android:layout_width="300dp"
+    android:layout_height="250dp">
+                  <ImageButton
+                      android:layout_width="300dp"
+                      android:layout_height="170dp"
+                      android:src="@drawable/cafeteria"
+                      android:adjustViewBounds="true"
+                      android:scaleType="fitXY"
+                      android:layout_marginLeft="10dp"/>
+             <TextView
+                   android:layout_width="142dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="bottom"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="50dp"
+                   android:text="Cafeteria"
+                   android:textColor="@android:color/black"
+                   android:textStyle="bold"
+                   android:textSize="17dp"/>
+
+             <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="47dp"
+                   android:layout_gravity="bottom"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:text="Cafeteria situated in Block 2"
+                   android:textColor="@android:color/darker_gray"
+                   android:textSize="13dp" />
+
+</androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp">
+                        <ImageButton
+                            android:layout_width="300dp"
+                            android:layout_height="170dp"
+                            android:src="@drawable/gate1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="142dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="50dp"
+                            android:text="Gate 1"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="17dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Main Gate"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="13dp"
+                            />
+
+                    </androidx.cardview.widget.CardView>
+                    <!--
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Four" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Five" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Six" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Seven" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Eight" />
+                    <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Button Nine" />
+                        -->
+                </LinearLayout>
+            </HorizontalScrollView>
+        <View
+            android:id="@+id/divider22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/fstTxt22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text="OTHERS"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_marginTop="-10dp">
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="250dp">
+                <ImageButton
+                    android:layout_width="300dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/cafeteria"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="Cafeteria"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Cafeteria situated in Block 2"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="250dp">
+                <ImageButton
+                    android:layout_width="300dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/gate1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="Gate 1"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Main Gate"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13dp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+            <!--
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Four" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Five" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Six" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Seven" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Eight" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Nine" />
+                -->
+        </LinearLayout>
+        </HorizontalScrollView>
+            <!--<Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Button Five" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Button Six" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Button Seven" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Button Eight" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Button Nine" />
+                -->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
